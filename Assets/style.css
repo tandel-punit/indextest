@@ -1,0 +1,206 @@
+
+
+
+body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding:25px;
+}
+
+section {
+    line-height: 20px;
+}
+
+header {
+    
+    width: 100%; height: 150px; color: rgb(245, 234, 204);
+background-color: rgb(203, 168, 235); border-top-left-radius: 20px;
+ border-top-right-radius: 20px
+
+}
+
+
+img {
+
+    border-radius: 25px;
+    margin-right: 20px;
+    float:left
+
+   
+}
+.image2 {
+    border-radius: 25px;
+    margin-right: 20px;
+    float:right;
+    margin:10px;
+}
+
+
+   
+h1 {
+    margin-top: 50px;
+    float: left;
+    margin-bottom: 50px;
+    margin-left:20px;
+   
+
+}
+
+
+
+
+
+nav ul {
+    float: right;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left:20px;
+    color:  rgb(245, 234, 204);
+    margin-top: 50px;
+font-size: larger;    
+
+}
+
+nav a{
+    display: flex;
+    text-align: right;
+    color:  rgb(245, 234, 204);
+    margin:20px
+
+}
+
+
+nav a:hover {
+
+    color: rgb(127, 31, 218) ;
+
+
+}
+
+
+
+h2 {
+    border-style: solid;
+    color:rgb(245, 234, 204);
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin:20px ;
+    box-shadow: inset 3px 3px 15px black;
+}
+
+
+
+  
+
+.About {
+height: 350px;
+padding: 10px;
+background-color: rgb(161, 160, 160, 0.8);
+font-style: italic;
+
+}
+
+.Portfolio {
+    height: 350px;
+    
+    padding: 10px;
+    background-color: rgb(161, 160, 160, 0.8);
+    font-style: italic;
+    
+    }
+
+ .Contact {
+        height: 300px;
+        
+        padding: 10px;
+        background-color: rgb(161, 160, 160, 0.8);
+        font-style: italic;
+        
+        }
+        
+
+        div {
+        margin-top: 20px;
+        margin-left: 30px;
+        }
+input {
+    min-height: 30px;
+    min-width: 100px;
+}
+input:focus {
+    color: indigo;
+    background-color: lavender;
+}
+
+        button { 
+            background-color: gray;
+        line-height: 1.5;
+        margin-top: 10px;
+        margin-left: 50px;
+    
+
+        }
+        button:hover {
+            color: indigo;
+        }
+
+        p{
+            padding-left: 10px;
+        }
+
+footer {
+
+    width: 100%; height: 100px; color: rgb(245, 234, 204);
+    background-color: rgb(203, 168, 235);
+   
+    text-align: center;
+    border-bottom-left-radius: 20px;
+ border-bottom-right-radius: 20px
+
+}
+
+
+h3 {
+    font-style: bolder;
+padding: 30px;
+line-height: 25px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px)  and (max-device-width: 1024px) {
+
+
+    .About {
+        
+        height: 100%;}
+
+.Portfolio {
+        
+ height: 300%;}
+ .Contact {
+        
+    height: 100%;}
+    
+
+  nav a {
+
+    text-align: center;
+  }      
+
+    header { width: 102%;
+    flex-wrap:wrap ;}
+
+
+    
+    footer { background-color: black;}
+
+}
+
+@media print { * {
+    display: none}}
