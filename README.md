@@ -1,3 +1,3 @@
 # Homework-Portfolio
 Portfolio
-<img src="i\src\assets\img\launch\screen.png" width="800px" height="auto">
+<img src="https://github.com/tandel-punit/indextest/blob/main/Screen.png" width="800px" height="auto">
